@@ -20,7 +20,8 @@ Logs in and scrapes quotes from the **first 5 pages** using the "Next" button wi
 Logs in and scrapes quotes from **all the pages** using the "Next" button and EC.staleness_of() to ensure new content is loaded properly with wait conditions from [quotes.toscrape.com].
 
 ### `04_scrape_infinite_scroll.py`
-scrapes quotes and authors from start to the bottom of the page using **.execute_script** with proper time intervals from [quotes.toscrape.com/scroll]
+Scrapes quotes and authors from start to the bottom of the page using **.execute_script** with proper time intervals from [quotes.toscrape.com/scroll]
+
 ---
 
 ## 🧠 Learning Goals
