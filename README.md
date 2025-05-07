@@ -19,6 +19,8 @@ Logs in and scrapes quotes from the **first 5 pages** using the "Next" button wi
 ### `03_scrape_all_pages.py`
 Logs in and scrapes quotes from **all the pages** using the "Next" button and EC.staleness_of() to ensure new content is loaded properly with wait conditions from [quotes.toscrape.com].
 
+### `04_scrape_infinite_scroll.py`
+scrapes quotes and authors from start to the bottom of the page using **.execute_script** with proper time intervals from [quotes.toscrape.com/scroll]
 ---
 
 ## 🧠 Learning Goals
@@ -27,6 +29,7 @@ Logs in and scrapes quotes from **all the pages** using the "Next" button and EC
 - Learn how to interact with login forms using Selenium.
 - Handle **pagination** in dynamic web pages using WebDriver waits and navigation logic.
 - Use explicit waits to avoid common timing issues.
+- Deal with **infinite scrolling** and dynamic loading with delays.
 
 ---
 
@@ -46,9 +49,6 @@ As I continue building my web scraping skills with Selenium, here are the next s
 
 ## 🔜 Upcoming Topics to Practice
 
-- **Infinite Scroll Handling**
-  - Practice using `execute_script()` to scroll and load content
-  - Wait for content to dynamically load with delays or conditions
 - **Pop-up & Modal Interaction**
   - Detect and close popups
   - Extract content from modals and overlays
