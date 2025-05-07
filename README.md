@@ -45,8 +45,6 @@ scrapes quotes and authors from start to the bottom of the page using **.execute
 
 As I continue building my web scraping skills with Selenium, here are the next steps I plan to work on:
 
----
-
 ## 🔜 Upcoming Topics to Practice
 
 - **Pop-up & Modal Interaction**
