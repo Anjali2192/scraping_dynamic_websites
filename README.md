@@ -16,7 +16,7 @@ Scrapes quotes from the **first page** of [quotes.toscrape.com](http://quotes.to
 ### `02_scrape_few_pages.py`
 Logs in and scrapes quotes from the **first 5 pages** using the "Next" button with wait conditions from [quotes.toscrape.com].
 
-### '03_scrape_all_pages.py'
+### `03_scrape_all_pages.py`
 Logs in and scrapes quotes from **all the pages** using the "Next" button and EC.staleness_of() to ensure new content is loaded properly with wait conditions from [quotes.toscrape.com].
 
 ---
@@ -70,6 +70,6 @@ As I continue building my web scraping skills with Selenium, here are the next s
 
 ---
 
-:pin: *This project is a work in progress. I'm learning step by step and keeping everything well-documented.*
+:pushpin: *This project is a work in progress. I'm learning step by step and keeping everything well-documented.*
 
 ---
