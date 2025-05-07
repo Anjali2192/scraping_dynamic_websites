@@ -14,7 +14,10 @@ Check a site's `robots.txt` to understand its scraping rules and ensure respectf
 Scrapes quotes from the **first page** of [quotes.toscrape.com](http://quotes.toscrape.com).
 
 ### `02_scrape_few_pages.py`
-Logs in and scrapes quotes from the **first 5 pages** using the "Next" button with wait conditions.
+Logs in and scrapes quotes from the **first 5 pages** using the "Next" button with wait conditions from [quotes.toscrape.com].
+
+### '03_scrape_all_pages.py'
+Logs in and scrapes quotes from **all the pages** using the "Next" button and EC.staleness_of() to ensure new content is loaded properly with wait conditions from [quotes.toscrape.com].
 
 ---
 
@@ -23,6 +26,7 @@ Logs in and scrapes quotes from the **first 5 pages** using the "Next" button wi
 - Understand how to respect scraping rules via `robots.txt`.
 - Learn how to interact with login forms using Selenium.
 - Handle **pagination** in dynamic web pages using WebDriver waits and navigation logic.
+- Use explicit waits to avoid common timing issues.
 
 ---
 
@@ -42,9 +46,6 @@ As I continue building my web scraping skills with Selenium, here are the next s
 
 ## 🔜 Upcoming Topics to Practice
 
-- **Scraping all pages** (not just a few)
-  - Loop through until there's no "Next" button
-  - Handle unexpected pagination breaks
 - **Infinite Scroll Handling**
   - Practice using `execute_script()` to scroll and load content
   - Wait for content to dynamically load with delays or conditions
@@ -66,5 +67,9 @@ As I continue building my web scraping skills with Selenium, here are the next s
 - Push every meaningful update to GitHub
 - Document what I learn in README and comments
 - Build confidence to take on freelance scraping gigs
+
+---
+
+:pin: *This project is a work in progress. I'm learning step by step and keeping everything well-documented.*
 
 ---
