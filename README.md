@@ -14,13 +14,13 @@ Check a site's `robots.txt` to understand its scraping rules and ensure respectf
 Scrapes quotes from the **first page** of [quotes.toscrape.com](http://quotes.toscrape.com).
 
 ### `02_scrape_few_pages.py`
-Logs in and scrapes quotes from the **first 5 pages** using the "Next" button with wait conditions from [quotes.toscrape.com].
+Logs in and scrapes quotes from the **first 5 pages** using the "Next" button with wait conditions from [quotes.toscrape.com](http://quotes.toscrape.com/login).
 
 ### `03_scrape_all_pages.py`
-Logs in and scrapes quotes from **all the pages** using the "Next" button and EC.staleness_of() to ensure new content is loaded properly with wait conditions from [quotes.toscrape.com].
+Logs in and scrapes quotes from **all the pages** using the "Next" button and EC.staleness_of() to ensure new content is loaded properly with wait conditions from [quotes.toscrape.com](http://quotes.toscrape.com/login).
 
 ### `04_scrape_infinite_scroll.py`
-Scrapes quotes and authors from start to the bottom of the page using **.execute_script** with proper time intervals from [quotes.toscrape.com/scroll]
+Scrapes quotes and authors from start to the bottom of the page using **.execute_script** with proper time intervals from [quotes.toscrape.com](http://quotes.toscrape.com/scroll).
 
 ---
 
