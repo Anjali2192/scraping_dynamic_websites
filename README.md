@@ -22,6 +22,9 @@ Logs in and scrapes quotes from **all the pages** using the "Next" button and EC
 ### `04_scrape_infinite_scroll.py`
 Scrapes quotes and authors from start to the bottom of the page using **.execute_script** with proper time intervals from [quotes.toscrape.com](http://quotes.toscrape.com/scroll).
 
+### `05_modal_and_form_interaction.py`
+Opens a modal and extract it's content. Handles multiple form inputs and also Select options from dropdowns using **Select** class from [www.lambdatest.com](https://www.lambdatest.com/selenium-playground/)
+
 ---
 
 ## 🧠 Learning Goals
@@ -48,12 +51,6 @@ As I continue building my web scraping skills with Selenium, here are the next s
 
 ## 🔜 Upcoming Topics to Practice
 
-- **Pop-up & Modal Interaction**
-  - Detect and close popups
-  - Extract content from modals and overlays
-- **Dropdowns and Forms**
-  - Select options from dropdowns (`Select` class)
-  - Handle multiple form inputs
 - **CAPTCHA Awareness**
   - Learn how to detect CAPTCHAs (only for awareness; never bypass illegally)
   - Understand limitations and ethical boundaries
