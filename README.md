@@ -1,7 +1,7 @@
-# Selenium Dynamic Scraping Practice
+ # 🚀 Selenium Dynamic Scraping Practice
 
 This repository documents my learning journey of scraping dynamic websites using **Selenium in Python**.  
-Each script focuses on a specific concept such as login, pagination, and ethical scraping practices.
+Each script focuses on a specific concept such as login, pagination, modals, dropdowns, CAPTCHA awareness and ethical scraping practices.
 
 ---
 
@@ -23,7 +23,10 @@ Logs in and scrapes quotes from **all the pages** using the "Next" button and EC
 Scrapes quotes and authors from start to the bottom of the page using **.execute_script** with proper time intervals from [quotes.toscrape.com](http://quotes.toscrape.com/scroll).
 
 ### `05_modal_and_form_interaction.py`
-Opens a modal and extract it's content. Handles multiple form inputs and also Select options from dropdowns using **Select** class from [www.lambdatest.com](https://www.lambdatest.com/selenium-playground/)
+Interacts with a modal popup to extract content, fills out a complete form including a dropdown selection, and takes a screenshot on submission. Source: [www.lambdatest.com](https://www.lambdatest.com/selenium-playground/)
+
+### `06_captcha_awareness.py`
+Detects CAPTCHA on a demo page, pauses for manual solving, and resumes the script afterward. Source: [www.google.com]("https://www.google.com/recaptcha/api2/demo)
 
 ---
 
@@ -34,6 +37,8 @@ Opens a modal and extract it's content. Handles multiple form inputs and also Se
 - Handle **pagination** in dynamic web pages using WebDriver waits and navigation logic.
 - Use explicit waits to avoid common timing issues.
 - Deal with **infinite scrolling** and dynamic loading with delays.
+- Interact with modals, forms and dropdowns.
+- Detect and pause for CAPTCHAs
 
 ---
 
@@ -42,18 +47,7 @@ Opens a modal and extract it's content. Handles multiple form inputs and also Se
 - Python 3
 - Selenium WebDriver
 - ChromeDriver
-
----
-
-# 🚀 What's Next in My Selenium Learning Journey
-
-As I continue building my web scraping skills with Selenium, here are the next steps I plan to work on:
-
-## 🔜 Upcoming Topics to Practice
-
-- **CAPTCHA Awareness**
-  - Learn how to detect CAPTCHAs (only for awareness; never bypass illegally)
-  - Understand limitations and ethical boundaries
+- WebDriverWait / ExpectedConditions
 
 ---
 
@@ -66,6 +60,11 @@ As I continue building my web scraping skills with Selenium, here are the next s
 
 ---
 
-:pushpin: *This project is a work in progress. I'm learning step by step and keeping everything well-documented.*
+## ▶️ How to Run
+
+- Clone this repo.
+- Install dependencies.
+- Update the path to chromedriver.exe in each script.
+- Run any script.
 
 ---
